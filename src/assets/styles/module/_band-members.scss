@@ -1,0 +1,20 @@
+
+.band-members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.band-member {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+
+    img {
+        height: 12rem;
+        border: 6px solid $theme-blue-color;
+        border-radius: 6px;
+      
+    }
+}

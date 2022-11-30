@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo {
+        width: 4rem;
+        margin: auto;
+    }
+
+    .nav {
+        font-weight: 700;
+        color: white;
+
+          
+        
+
+        ul {
+            list-style: none;
+            
+            
+
+            li {
+                display: inline;
+                margin-right: .6rem;
+                padding: .3rem;
+                border-left: 10px solid #1F618D;                
+            }
+
+            .page-two {
+                border-color: #1F618D;
+            }
+
+            .page-three {
+                border-color: #E74C3C;
+            }
+
+            .page-four {
+                border-color: #1ABC9C;
+            }
+        }
+    }
+}
