@@ -3,6 +3,7 @@
  * see commented examples below
  */
 
+
 import * as bootstrap from 'bootstrap';
 import countdown from 'countdown';
 
@@ -16,10 +17,7 @@ import countdown from 'countdown';
 window.onload = function() {
     const nextConcertDate = new Date(2023, 0, 8, 19, 00);
     const nextConcertSite = ''
-
     const concertCountdown = document.getElementById('concert-countdown');
-
-    
     
     setInterval( () => {
         concertCountdown.textContent = countdown(nextConcertDate)
@@ -35,10 +33,9 @@ window.onload = function() {
             .replace('seconds', 'segundos')
             .replace('second', 'segundo')
             .replace('and', 'y');
-
-
-
     }, 1000);
+
+
     
     
 }

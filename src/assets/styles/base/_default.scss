@@ -23,8 +23,10 @@ div {
         font-weight: 600;
         // text-shadow: 0.2rem 0.2rem #333;
         font-size: 5rem;
+}
 
-
+main {
+    min-height: calc(100vh - $footer-height - $header-height);
 }
 
 
