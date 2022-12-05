@@ -5,7 +5,8 @@
 
 
 import * as bootstrap from 'bootstrap';
-import countdown from 'countdown';
+// import countdown from 'countdown';
+import countdown from 'countdown/countdown.js';
 
 
 /**
