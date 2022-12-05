@@ -21,7 +21,8 @@ window.onload = function() {
     const concertCountdown = document.getElementById('concert-countdown');
     
     setInterval( () => {
-        concertCountdown.textContent = countdown(nextConcertDate)
+        // concertCountdown.textContent = countdown(nextConcertDate)
+        concertCountdown.textContent = countdown( new Date(2000, 0, 1) )
             .toString()
             .replace('months', 'meses')
             .replace('month', 'mes')
