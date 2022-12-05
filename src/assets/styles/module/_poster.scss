@@ -4,14 +4,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../images/concert.webp');
-    // height: 40rem;
     min-height: calc(100vh - $footer-height);
     background-position: 0% 80%;
 
     .box-padding {
-        height: $header-height + 3rem;
-        
-        
+        height: $header-height + 3rem;      
     }
 
     .content {
@@ -71,12 +68,29 @@
         }
 
 
-}
+    }
     
+}
 
+@media screen and (max-width: $small-screen-size) {
+    .poster, %poster {
+    
+        .box-padding {
+            height: $header-height-small-screen-size + 3rem;      
+        }
 
+        .content {
+            grid-template-columns: 100%;
+            grid-template-areas:
+                "tour"
+                "logo";
 
+                .logo img {
+                    width: 90%;
+                }
+        }
 
-
-
+        
+    }
+    
 }

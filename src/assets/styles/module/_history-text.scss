@@ -25,3 +25,11 @@
         margin-right: 2rem;
     }
 }
+
+@media screen and (max-width: $small-screen-size) {
+        
+    .like-newspaper {
+        flex-direction: column;
+    }
+
+}
