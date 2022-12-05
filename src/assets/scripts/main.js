@@ -20,7 +20,7 @@ import Countdown  from 'ds-countdown';
 window.onload = function() {
     // const nextConcertDate = new Date(2023, 0, 8, 19, 0);
     // const nextConcertSite = ''
-    // const concertCountdown = document.getElementById('concert-countdown');
+    const concertCountdown = document.getElementById('concert-countdown');
     
     // setInterval( () => {
     //     concertCountdown.textContent = countdown(nextConcertDate)
@@ -40,15 +40,21 @@ window.onload = function() {
 
     new Countdown({
         id: 'concert-countdown',
-        // targetTime: '2023-01-08 19:00:00',
-        targetTime: '2022-12-06 19:00:00',
+        targetTime: '2023-01-08 19:00:00',
         noDay: false,
         hideDayAtZero: false,
-        separator: '/',
+        separator: ['dias', 'd', ],
         afterEnd() {
           // alert("Time over !")
         }
       });
+
+      setInterval( () => {
+        concertCountdown.textContent = concertCountdown.textContent.replace(':', ' días ');
+
+      }, 1000);
+
+     
 
     
 
