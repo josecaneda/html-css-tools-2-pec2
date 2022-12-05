@@ -10,6 +10,7 @@ body {
 
 main {
     margin: 0;
+    min-height: calc(100vh - $footer-height - $header-height);
 }
 
 div {
@@ -25,9 +26,6 @@ div {
         font-size: 5rem;
 }
 
-main {
-    min-height: calc(100vh - $footer-height - $header-height);
-}
 
 
 

@@ -15,7 +15,7 @@ import countdown from 'countdown';
 
 
 window.onload = function() {
-    const nextConcertDate = new Date(2023, 0, 8, 19, 00);
+    const nextConcertDate = new Date(2023, 0, 8, 19);
     const nextConcertSite = ''
     const concertCountdown = document.getElementById('concert-countdown');
     
