@@ -5,7 +5,6 @@
 
 
 import * as bootstrap from 'bootstrap';
-//import countdown from 'countdown';
 import Countdown  from 'ds-countdown';
 
 
@@ -18,29 +17,14 @@ import Countdown  from 'ds-countdown';
 
 
 window.onload = function() {
-    // const nextConcertDate = new Date(2023, 0, 8, 19, 0);
-    // const nextConcertSite = ''
+    const nextConcertDate = '2023-01-08 19:00:00',;
+    const nextConcertSite = ''
     const concertCountdown = document.getElementById('concert-countdown');
     
-    // setInterval( () => {
-    //     concertCountdown.textContent = countdown(nextConcertDate)
-    //         .toString()
-    //         .replace('months', 'meses')
-    //         .replace('month', 'mes')
-    //         .replace('days', 'días')
-    //         .replace('day', 'día')
-    //         .replace('hours', 'horas')
-    //         .replace('hour', 'hora')
-    //         .replace('minutes', 'minutos')
-    //         .replace('minute', 'minute')
-    //         .replace('seconds', 'segundos')
-    //         .replace('second', 'segundo')
-    //         .replace('and', 'y');
-    // }, 1000);
 
     new Countdown({
         id: 'concert-countdown',
-        targetTime: '2023-01-08 19:00:00',
+        targetTime: nextConcertDate,
         noDay: false,
         hideDayAtZero: false,
         separator: ['dias', 'd', ],
