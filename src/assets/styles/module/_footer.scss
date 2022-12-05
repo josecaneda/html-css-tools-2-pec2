@@ -1,0 +1,24 @@
+.footer {
+    @extend %header;
+ 
+
+ 
+
+    .social-network-links:hover {
+        img:hover {
+            opacity: 0.7;
+        }
+
+    }
+}
+
+.footer-content {
+    color: white;
+
+    text-align: center;
+}
+
+#concert-countdown {
+    color: orange;
+}
+

@@ -6,15 +6,22 @@
 @import 'layout/header';
 @import 'layout/home';
 @import 'layout/poster';
-
-
+@import 'layout/footer';
 
 @import 'module/home';
 @import 'module/poster';
 @import 'module/header';
 @import 'module/band-members';
+@import 'module/poster-history';
+@import 'module/blockquote';
+@import 'module/history-text';
+@import 'module/footer';
 
-@import 'theme/default'
+
+@import 'theme/default';
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
 
 
 

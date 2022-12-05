@@ -47,5 +47,10 @@
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-recommended-scss": "^8.0.0",
     "stylelint-scss": "^4.3.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "countdown": "^2.6.0"
   }
 }
