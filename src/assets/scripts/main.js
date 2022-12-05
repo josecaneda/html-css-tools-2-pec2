@@ -50,7 +50,7 @@ window.onload = function() {
       });
 
       setInterval( () => {
-        concertCountdown.textContent = concertCountdown.textContent.replace(':', ' días ');
+        concertCountdown.textContent = concertCountdown.textContent.replace(':', ' días ') + ' horas';
 
       }, 1000);
 
