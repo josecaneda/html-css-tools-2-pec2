@@ -5,8 +5,8 @@
 
 
 import * as bootstrap from 'bootstrap';
-// import countdown from 'countdown';
-import countdown from 'countdown/countdown.js';
+import countdown from 'countdown';
+
 
 
 /**
@@ -16,7 +16,7 @@ import countdown from 'countdown/countdown.js';
 
 
 window.onload = function() {
-    const nextConcertDate = new Date(2023, 0, 8, 19);
+    const nextConcertDate = new Date(2023, 0, 8, 19, 0);
     const nextConcertSite = ''
     const concertCountdown = document.getElementById('concert-countdown');
     
