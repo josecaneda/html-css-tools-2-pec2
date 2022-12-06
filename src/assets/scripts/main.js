@@ -40,10 +40,7 @@ window.onload = function() {
 
      
 
-    
-
-    
-    
+   
 }
  
 
